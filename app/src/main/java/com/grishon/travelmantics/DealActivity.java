@@ -122,9 +122,11 @@ public class DealActivity extends AppCompatActivity {
             menu.findItem(R.id.save_menu).setVisible(true);
             enableEditTexts(true);
         } else {
+
             menu.findItem(R.id.remove_menu).setVisible(false);
             menu.findItem(R.id.save_menu).setVisible(false);
             enableEditTexts(false);
+
         }
         return true;
     }
